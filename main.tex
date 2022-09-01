@@ -1,0 +1,54 @@
+\documentclass[12pt]{amsart}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{ebproof}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue
+}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{caution}[theorem]{Caution}
+
+\begin{document}
+
+\title{Homework 2}
+
+\maketitle
+
+\begin{enumerate}
+	\item Give natural deduction proofs of the following statements. 
+
+	\begin{enumerate}
+
+	\item $\neg(A \lor B) \to (A \to \neg B)$ 
+	\item $\neg A \land \neg B \to \neg (A \lor B)$
+	\item $A \leftrightarrow B \vdash \neg A \leftrightarrow \neg B$
+	\item $(A \to B) \to (\neg B \to \neg A)$
+	\item $((A \to B) \to A) \to A$
+	
+	\end{enumerate}
+
+	\item Show that $A \to B$, $\neg A \lor B$, and $\neg (A \land \neg B)$ are logically 
+		equivalent by writing out truth tables and showing they are the same.
+
+	\item Write out the truth table for $(A \to B) \lor (B \lor C \to A)$. 
+
+\end{enumerate}
+
+\end{document}
